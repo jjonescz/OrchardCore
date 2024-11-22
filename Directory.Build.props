@@ -5,7 +5,7 @@
   <PropertyGroup>
     <!-- https://aka.ms/vs-build-acceleration -->
     <AccelerateBuildsInVisualStudio>true</AccelerateBuildsInVisualStudio>
-    <Features>$(Features);utf8-string-encoding</Features>
+    <Features>$(Features);utf8-string-encoding=0</Features>
   </PropertyGroup>
 
   <PropertyGroup Label="Analysis rules">
